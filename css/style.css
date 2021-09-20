@@ -1,0 +1,155 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #FDF6FF !important;
+  font-family: 'Tajawal', sans-serif !important;
+  font-family: 'Nunito ', sans-serif;
+}
+
+.container-fluid {
+  padding: 0 10% !important;
+}
+
+/*navbar*/
+.navbar {
+  background-color: #FDF6FF !important;
+}
+
+.logo {
+  width: 25%;
+}
+
+span {
+  font-family: 'Nunito Light 300', sans-serif;
+  margin: 20px;
+  cursor: pointer;
+  color: black;
+}
+span:active{
+  color: grey;
+}
+/*second-section*/
+#header {
+  height: 60vh;
+}
+
+.big-heading {
+  font-family: 'Tajawal Extra-bold 800', sans-serif !important;
+  margin-top: 150px;
+  margin-right: 100px;
+  font-size: 3.5rem !important;
+  line-height: 1.5 !important;
+  text-align: center;
+}
+
+.phone {
+  width: 100%;
+}
+
+/*card-section*/
+.card {
+  margin: 40px 0;
+  box-shadow: 3px 5px 7px #DDDDDD;
+  border: none !important;
+}
+
+.img-coupon {
+  width: 20%;
+  float: left;
+}
+
+.shop-logo {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.site-link {
+  text-decoration: none !important;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: #514F4F !important;
+  font-size: 15px;
+  background-color: #FDF6FF;
+  box-shadow: 3px 5px 7px #DDDDDD;
+}
+
+.site-link:hover {
+  background-color: #F8EDFC;
+  padding: 10px 40px;
+}
+
+.copy-text {
+  padding: 10px 10px 20px;
+}
+
+.copy-text .all-coupons {
+  display: inline-block;
+  border: 1px dashed #FF4848;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 40px;
+  font-size: 17px;
+  color: #514F4F
+}
+
+.copy-text button {
+  margin-right: 9px;
+  padding: 10px 13px;
+  border: none;
+  border-radius: 70px;
+  background-color: #FF4848;
+  outline: none;
+  cursor: pointer;
+}
+.copy-text button:hover{
+  background-color: #F97D7D;
+}
+.fa-copy {
+  color: white;
+  font-size: 20px;
+  padding: 5px
+}
+
+.copy-text button:active {
+  background-color: #FDF6FF;
+}
+
+.alert {
+  float: right;
+  background-color: #FF4848;
+  color: white;
+  padding: 5px 10px !important;
+  border-radius: 50px !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  display: none;
+}
+
+.fa-check {
+  color: white;
+  width: 5%;
+}
+/*footer*/
+.footer{
+  background-color: #FF4848;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px
+}
+.Copyright{
+  font-family: 'Tajawal Light 300', sans-serif !important;
+}
+
+@media (max-width:1028px) {
+  .logo {
+    width: 40%;
+  }
+
+  .big-heading {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 2.5rem !important;
+  }
+
+}
